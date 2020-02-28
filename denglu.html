@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录 - 网易严选</title>
+		<link rel="shortcut icon" href="img/2.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headr.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+	</head>
+	<body>
+		<!-- 头部开始 -->
+		<div class="g-hd">
+			<!-- 顶部开始 -->
+			<a name="dinbu"></a>
+			<div class="m-siteNav">
+				<div class="g-row">
+					<div class="limitLength">
+						<ul class="j-list list">
+							<li class="j-notice notice">
+								<a class="txt f-text-underline" href="" >
+									网易严选客服服务时间通知
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<a href="#" class="login j-topLogin" onclick="denglu()">登录</a>
+						<a href="" class="register j-topRegister">注册</a>
+						<div class='split'></div>
+						<a href="" class="attitude">我的订单</a>
+						<div class='split'></div>
+						<a href="" class="attitude">会员</a>
+						<div class='split'></div>
+						<a href="" class="attitude">甄选家</a>
+						<div class='split'></div>
+						<div class="bSite">
+							<a href="" class="customerText">企业采购</a>
+							<span class="w-icon-arrow"></span>
+							<div class="jq-dropdown">
+								<nav class="dropdownMenu">
+									<a href="new_file.html" class="item bder-none" target="blank">企业购</a>
+									<a href="" class="item">礼品卡</a>
+									<a href="" class="item">联系我们</a>
+								</nav>
+							</div>
+						</div>
+						<div class='split'></div>
+						<div class="bSite">
+							<a href="" class="customerText">客户服务</a>
+							<span class="w-icon-arrow"></span>
+							<div class="jq-dropdown">
+								<nav class="dropdownMenu">
+									<a href="" class="item bder-none">帮助中心</a>
+									<a href="" class="item">商务合作</a>
+									<a href="" class="item">开放平台</a>
+								</nav>
+							</div>
+						</div>
+						<div class='split'></div>
+						<div class="m-dropdown m-hdAppDownload">
+							<a href="" class='trigger j-downloadlink'>
+								<i class="icon w-icon-phone phone-app-s"></i>
+								<span class="txt">APP</span>
+							</a>
+							<div class="bd">
+								<div class="wrap">
+									<div class="QRcode j-qrcode">
+										<canvas></canvas>
+									</div>
+									<span class="txt">下载领1000元新人礼包</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 顶部结束 -->
+			<!-- 搜索框开始 -->
+			<div class="js-funcTabWrap">
+				<div class="js-funcTab">
+					<div class="g-row">
+						<div class="tab-logo-activityWrap">
+							<a href="" class="tab-logo-activityLink">
+								<img src="img/logo1.png" style="height: 104px;">
+							</a>
+						</div>
+						<div class="tab-inner">
+							<a href="" class="w-button-cart">
+								<i class="w-icon-cart"></i>
+								<i class="w-icon-header"></i>
+								<span class="cartName">购物车</span>
+								<i class="w-icon-normal">0</i>
+							</a>
+						</div>
+						<div class="m-search">
+							<input type="text" id="" value="" placeholder='14K金除氯增压花洒' />
+							<i class="header-search-gray"></i>
+							<div class="w-button-search">
+								<span class="searchButtonName">搜索</span>
+							</div>
+							<div class="hotKeywordListWrap">
+								<div class="hotKeywordRow">
+									<a class="hotKeyword ">行李箱 8折起</a>
+									<a class="hotKeyword ">静音风扇7.7折</a>
+									<a class="hotKeyword ">电动牙刷69元起</a>
+									<a class="hotKeyword ">按摩电器</a>
+									<a class="hotKeyword border-none">驱蚊</a>
+								</div>
+							</div>
+						</div>
+						<ul class='tab-nav'>
+							<li class="nav-item first" style='padding-left:0;'>
+								<a href="" class="topLevel" style="">首页</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">居家生活</a>
+								<div class="j-nav-dropdown-0">
+									<div class="j-nav-dropdown nav-dropdown">
+										<ul class="cateGroupList ">
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">春夏焕新</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/618bm.png" alt="">
+																<span class="subCate-text">必买</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/xialinag.png" alt="">
+																<span class="subCate-text">夏凉热卖</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/zhutichang.png" alt="">
+																<span class="subCate-text">主题床品</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/beiou.png" alt="">
+																<span class="subCate-text">北欧原木风</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/chuju.png" alt="">
+																<span class="subCate-text">厨具系列</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">家纺床品</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/chuangpintaojian.png" alt="">
+																<span class="subCate-text">床品套件</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/bei.png" alt="">
+																<span class="subCate-text">被枕套毯</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/chuangdian.png" alt="">
+																<span class="subCate-text">床垫床盖</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/抱枕.png" alt="">
+																<span class="subCate-text">抱枕靠垫</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jujia.png" alt="">
+																<span class="subCate-text">居家布艺</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/maojin.png" alt="">
+																<span class="subCate-text">毛巾浴巾</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">家居家装</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/kecantin.png" alt="">
+																<span class="subCate-text">客餐厅家具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/woshijiaju.png" alt="">
+																<span class="subCate-text">卧室家具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/bangou.png" alt="">
+																<span class="subCate-text">办公书房家具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/xiaojianjiaju.png" alt="">
+																<span class="subCate-text">小件家具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/dengju.png" alt="">
+																<span class="subCate-text">灯具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jiashi.png" alt="">
+																<span class="subCate-text">家饰/香氛</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">收纳日用</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/shouna.png" alt="">
+																<span class="subCate-text">收纳</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/liangshai.png" alt="">
+																<span class="subCate-text">晾晒除味</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/yiliao.png" alt="">
+																<span class="subCate-text">家庭医疗</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/tuoxie.png" alt="">
+																<span class="subCate-text">居家拖鞋</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">厨房用品</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/guojupng.png" alt="">
+																<span class="subCate-text">锅具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/chucan.png" alt="">
+																<span class="subCate-text">餐厨配件</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/zhenban.png" alt="">
+																<span class="subCate-text">刀剪砧板</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">餐具水具</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/canju.png" alt="">
+																<span class="subCate-text">餐具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/shuibei.png" alt="">
+																<span class="subCate-text">水具杯壶</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jiuju.png" alt="">
+																<span class="subCate-text">茶咖酒具</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">办公用品</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj1.png" alt="">
+																<span class="subCate-text">文具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj2.png" alt="">
+																<span class="subCate-text">数码办公</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj3.png" alt="">
+																<span class="subCate-text">办公家具</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj4.png" alt="">
+																<span class="subCate-text">靠枕坐垫</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cateGroup">
+												<div class="cateGroupName" style="max-width:124px;width:124px">宠物生活</div>
+												<div class="columnList f-clearfix">
+													<div class="cateColumn">
+														<div class="cateItem">
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj5.png" alt="">
+																<span class="subCate-text">宠物食品</span>
+															</a>
+															<a href="" class="cateItem-text-color">
+																<img class="subCate-icon" src="img/jj6.png" alt="">
+																<span class="subCate-text">宠物用品</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">服饰鞋包</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">美食酒水</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">个护清洁</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">母婴亲子</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">运动旅行</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">数码家电</a>
+							</li>
+							<li class="j-nav-item nav-item ">
+								<a href="" class="topLevel">全球特色</a>
+							</li>
+							<li class="fixed-hide"></li>
+							<li class="nav-item first">
+								<a href="" class="topLevel">为你严选</a>
+							</li>
+							<li class="nav-item first" style='padding-right:0;'>
+								<a href="" class="topLevel">众筹</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 中间部分开始 -->
+		<div class="g-bd">
+			<div class="bdbg">
+				<div class="g-row">
+					<div class="row-box">
+						<div class="header-box">
+							<div class="mobileLogin" id="mobile" style="color: #999;">手机号登录</div>
+							<div class="split">&nbsp;</div>
+							<div class="mailLogin" id="mail" style="color: #333;">邮箱登录</div>
+						</div>
+						<div class="bd-box" style="display: none;">
+							<div class="box-bnner">
+								<div class="m-cnt">
+									<form action="post">
+										<div class="u-tab f-cb">
+											<a href="" style="float: right;height: 26px;line-height: 26px;">使用短信快捷登录</a>
+										</div>
+										<div class="inputbox" style="height: 38px;">
+											<div class="ulog" id="u1"><div class="u-logo-img3"></div></div>
+											<input type="text" class="text-ipt" placeholder="请输入手机号" id="input1"/>
+										</div>
+										<div class="change"></div>
+										<div class="inputbox">
+											<div class="ulog"><div class="u-logo-img4"></div></div>
+											<input type="password" class="pad" placeholder='请输入密码'/>
+										</div>
+										<div class="loginbox">
+											<a href="" class="u-loginbtn">登陆</a>
+										</div>
+										<div class="m-unlogin"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="bd-box" style="display: block;">
+							<div class="box-bnner">
+								<div class="m-cnt">
+									<form action="post">
+										<div class="u-tab f-cb">
+											<a href="" style="float: right;height: 26px;line-height: 26px;">使用短信快捷登录</a>
+										</div>
+										<div class="inputbox" style="height: 38px;">
+											<div class="ulog" id="u1"><div class="u-logo-img3"></div></div>
+											<input type="text" class="text-ipt" placeholder="请输入邮箱" id="input1"/>
+										</div>
+										<div class="change"></div>
+										<div class="inputbox">
+											<div class="ulog"><div class="u-logo-img4"></div></div>
+											<input type="password" class="pad" placeholder='请输入密码'/>
+										</div>
+										<div class="loginbox">
+											<a href="" class="u-loginbtn">登陆</a>
+										</div>
+										<div class="m-unlogin"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="loginFooter">
+							<div class="olist">
+								<a href="" class='qt qt-weixin'></a>
+								<a href="" class='qt qt-qq'></a>
+								<a href="" class='qt qt-weibo'></a>
+								<a href="" class='qt qt-wangyi'></a>
+							</div>
+							<a href="zhuce.html" id="none" style="display: block;">邮箱注册</a>
+							<a href="">遇到问题?</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 中间部分结束 -->
+		<!-- 底部开始 -->
+		<div class='my-module default-module cyc-m-HAtpFGtn'>
+			<footer class='g-ft'>
+				<div class='m-ft1'>
+					<div class='g-row'>
+						<div class='item item1'>
+							<div class='m-serviceTel'>
+								<h4 class="hd">客户服务</h4>
+								<a href="">
+									<span class='w-button btn kefuBtn'>
+										<i class="w-icon-foot"></i>
+										<div>在线客服</div>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class='item'>
+							<div class='m-whatIsYX'>
+								<h4 class="hd">何为严选</h4>
+								<p class="desc">
+									网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头
+									全程严格把控商品生产环节，力求帮消费者甄选到优质的商品
+								</p>
+								<div class='m-followUs'>
+									<p class="title">关注我们&nbsp;:</p>
+									<div class='m-focusList'>
+										<div class='m-dropdown'>
+											<i class="w-icon-sns sns-yixin"></i>
+											<div class='bd'>
+												<div class='wrap'>
+													<img src="img/ewmyanyuan.png" alt="" class='mar-top'>
+												</div>
+											</div>
+										</div>
+										<div class='m-dropdown'>
+											<i class="w-icon-sns sns-weixin"></i>
+											<div class='bd'>
+												<div class='wrap'>
+													<img src="img/ewmyanyuan.png" alt="" class='mar-top'>
+												</div>
+											</div>
+										</div>
+										<div class='m-dropdown'>
+											<i class="w-icon-sns sns-weibo"></i>
+											<div class='bd'>
+												<div class='wrap'>
+													<img src="img/ewmyanyuan.png" alt="" class='mar-top'>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='item'>
+							<div class='m-ftAppDownload'>
+								<h4 class="hd">扫码下载严选APP</h4>
+								<div class='m-qrcode j-qrcode'>
+									<img src="img/yanxuanapp.png" alt="">
+								</div>
+								<div class='tip'>下载领1000元新人礼包</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='m-ft2'>
+					<div class='g-row'>
+						<ul class='m-siteEnsure'>
+							<li class='item item-1'>
+								<div class='inner'>
+									<i class="icon foot-ft1"></i>
+									<p class="text">网易自营电商</p>
+								</div>
+							</li>
+							<li class='item item-2'>
+								<div class='inner'>
+									<i class="icon foot-ft1"></i>
+									<p class="text">30天无忧退换货</p>
+								</div>
+							</li>
+							<li class='item item-3'>
+								<div class='inner'>
+									<i class="icon foot-ft1"></i>
+									<p class="text">满88元免邮费</p>
+								</div>
+							</li>
+							<li class='item item-4'>
+								<div class='inner'>
+									<i class="icon foot-ft1"></i>
+									<p class="text">品质保证</p>
+								</div>
+							</li>
+						</ul>
+						<hr>
+						<div class='m-siteInfo'>
+							<nav class='nav'>
+								<a href="" class='text'>关于我们</a>
+								<b class="split">|</b>
+								<a href="" class='text'>帮助中心</a>
+								<b class="split">|</b>
+								<a href="" class='text'>售后服务</a>
+								<b class="split">|</b>
+								<a href="" class='text'>配送与验收</a>
+								<b class="split">|</b>
+								<a href="" class='text'>商务合作</a>
+								<b class="split">|</b>
+								<a href="" class='text'>企业采购</a>
+								<b class="split">|</b>
+								<a href="" class='text'>开放平台</a>
+								<b class="split">|</b>
+								<a href="" class='text'>搜索推荐</a>
+								<b class="split">|</b>
+								<a href="" class='text'>友情链接</a>
+							</nav>
+							<p class='copyright'>
+								<a href="">食品经营许可证：JY13301080111719</a>
+								<a href="">
+									出版物经营许可证：新出发滨字第0132号
+								</a>
+								<span>妙得ICP证号：ICP 证浙B2-20160106</span>
+								<a href="">第二类医疗器械经营备案</a>
+								<a href="">营业执照</a>
+								网易公司版权所有 © 1997-2019
+							</p>
+							<p class='police'>
+								<span style="margin-right:10px">
+									（粤）网械平台备字（2019）第00004号
+								</span>
+								<span>
+									<a style="margin-right: 8px;" target="_blank" href="">
+										单用途商业预付卡备案证：330100AAC0024
+									</a>
+									<a class="shield" href="" target="_blank">
+										<img src="img/guohui.gif" alt="">
+									</a>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- 底部结束 -->
+		<script src="js/denglu.js"></script>
+	</body>
+</html>

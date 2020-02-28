@@ -1,0 +1,239 @@
+.cyc-m-HAtpFGtn{
+	height:549px;
+}
+.cyc-m-HAtpFGtn .g-ft{
+	padding-top:60px;
+	background-color:#fff;
+	border-top:1px solid #e8e8e8;
+}
+.m-ft1{
+	padding:0 0 34px;
+	height:238px;
+}
+.g-row{
+	width:1090px;
+	margin:0 auto;
+	position:relative;
+}
+.m-ft1 .item{
+	width:33.33%;
+	float:left;
+	text-align:center;
+}
+.m-ft1 .g-row .item{
+	border-left:1px solid #dedede;
+}
+.m-ft1 .g-row .item1{
+	border:none;
+}
+.m-serviceTel{
+	text-align:center;
+	line-height:1;
+}
+.m-ft1 .item .hd{
+	font-size:16px;
+	font-weight:400;
+	margin-bottom:24px;
+	line-height:1;
+}
+.m-serviceTel .btn{
+	display:block;
+	width:80px;
+	height:100px;
+	font-size:14px;
+	background-color:#fff;
+	padding-top:25px;
+	text-align:center;
+	border:1px solid #e8e8e8;
+	margin:0 auto;
+}
+.m-serviceTel .btn:hover{
+	color: #b4a078;
+}
+.m-serviceTel .btn:hover .w-icon-foot{
+	background-position:0 -314px;
+}
+.m-serviceTel .btn div{
+	margin-top:16px;
+}
+.w-icon-foot{
+	display:block;
+	margin-bottom:10px;
+	width:31px;
+	height:26px;
+	background:url(../img/yanxuan3.png)0 -350px no-repeat;
+	margin-left:24px;
+}
+.m-whatIsYX{
+	padding: 0 37px;
+    text-align: center;
+    line-height: 1;
+}
+.m-whatIsYX .desc{
+	text-align:left;
+	font-size:13px;
+	line-height:23px;
+	margin-bottom:22px;
+}
+.mar-top{
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.m-followUs{
+	line-height:1;
+	text-align:left;
+}
+.m-followUs .title{
+	float:left;
+	margin-right:15px;
+	margin-bottom:0;
+	font-size:14px;
+	line-height:32px;
+}
+.m-focusList{
+	display:inline-block;
+	float:left;
+}
+.m-dropdown{
+	margin-right:15px;
+	position:relative;
+	z-index:5;
+}
+.w-icon-sns{
+	background:url(../img/logo.png)no-repeat;
+	display:block;
+	width:32px;
+	height:32px;
+}
+.sns-yixin{
+	background-position:0 -160px;
+}
+.sns-weixin{
+	background-position: 0 -118px;
+}
+.sns-weibo{
+	background-position: 0 -76px;
+}
+.m-ft2 .m-dropdown .bd {
+	position:absolute;
+	right:0;
+	/* display:none; */
+	top:37px;
+	left:-48px;
+	width:123px;
+	padding-top:5px;
+}
+.m-ft2 .m-dropdown .wrap{
+	position:relative;
+	background-color:#fff;
+	border:1px solid #ddd;
+	box-shadow:0 0 3px 0 rgba(0,0,0,.2);
+	padding:10px;
+}
+.m-ft2 .m-dropdown-2d .wrap>img {
+	width:103px;
+	height:103px;
+}
+.m-ft2 .m-ftAppDownload{
+	text-align:center;
+}
+.m-ftAppDownload .m-qrcode{
+	width:104px;
+	height:108px;
+	display:inline-block;
+}
+.m-ftAppDownload .m-qrcode img{
+	width:104px;
+	height:104px;
+}
+.m-ftAppDownload .tip{
+	color:#b4a078;
+	font-size:12px;
+	margin-top:3px;
+}
+.m-ft2{
+	height: 250px;
+    padding-top: 37px;
+    background-color: #414141;
+}
+.m-siteEnsure{
+	margin-bottom:30px;
+	padding-left:17px;
+	height:51px;
+}
+.m-siteEnsure .item {
+	float:left;
+	width:25%;
+	text-align:center;
+}
+.m-siteEnsure .item .inner {
+	color: #fff;
+    font-size: 18px;
+    line-height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.m-ft2 .m-siteEnsure .item .inner .icon{
+	margin-right:17px;
+	float:left;
+    height: 50px;
+    width: 50px;
+	background:url(../img/yanxuan3.png)no-repeat;
+}
+.m-ft2 .m-siteEnsure .item-1 .inner .foot-ft1{
+	background-position: 0 -74px;
+}
+.m-ft2 .m-siteEnsure .item-2 .inner .foot-ft1{
+	background-position: 0 -134px;
+}
+.m-ft2 .m-siteEnsure .item-3 .inner .foot-ft1{
+	background-position: 0 -194px;
+}
+.m-ft2 .m-siteEnsure .item-4 .inner .foot-ft1{
+	background-position: 0 -254px;
+}
+.m-siteEnsure .item .inner .text {
+	float:left;
+	text-align:left;
+}
+.m-ft2 hr{
+	display: block;
+    height: 1px;
+    margin-bottom: 27px;
+    background-color: #4f4f4f;
+    border: 0;
+}
+.m-ft2 .m-siteInfo{
+	text-align: center;
+    color: #999;
+    position: relative;
+}
+.m-ft2 .m-siteInfo .nav{
+	display:inline-block;
+	height:18px;
+}
+.m-ft2 .m-siteInfo .nav .text{
+    color: #999;
+}
+.m-ft2 .m-siteInfo .nav .split{
+    margin: auto 10px;
+	border:none;
+}
+.m-ft2 .m-siteInfo .nav .text:hover{
+	color:#fff;
+}
+.m-siteInfo .copyright{
+	margin: 11px 0;
+}
+.m-siteInfo .copyright a,.m-siteInfo .copyright span{
+	color: #999;
+    margin-right: 15px;
+} 
+.m-siteInfo .copyright a:hover{
+	color:#fff;
+}
+.m-siteInfo .police .shield img{
+	width: 23px;
+    height: 25px;
+    margin-top: -5px;
+}

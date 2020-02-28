@@ -1,0 +1,440 @@
+.g-bd-list{
+    padding-bottom: 80px;
+    background-color: #f5f5f5;
+}
+.m-crumb{
+    font-size: 12px;
+    color: #333;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.m-crumb a, .m-crumb a:hover{
+    color: #333;
+}
+.m-manufacturerHd{
+    position: relative;
+    height: 360px;
+    background-size: 100% auto;
+    background-position: center;
+	background-image: url(../img3/1.png);
+}
+.m-manufacturerHd .inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 545px;
+    height: 191px;
+    padding: 0 70px;
+    background-image: url(../img3/2.png);
+}
+.m-manufacturerHd .inner .table{
+    display: table;
+    height: 191px;
+}
+.m-manufacturerHd .inner .cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.m-manufacturerHd .inner .cell .title{
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.m-manufacturerHd .inner .cell .desc{
+    font-size: 14px;
+    line-height: 22px;
+}
+.m-manufacturer>.bd{
+    padding: 40px 40px 0;
+	background: #fff;
+}
+.m-manufacturer>.bd:after,.m-manufacturer>.bd:before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.m-manufacturer>.bd .label{
+    position: relative;
+    line-height: 1;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.m-manufacturer>.bd .label .text{
+    color: #b4a078;
+}
+.m-manufacturer>.bd .label .btn{
+    position: absolute;
+    top: -9px;
+    right: 0;
+    text-align: center;
+    width: 96px;
+    line-height: 34px;
+    border-radius: 2px;
+    background-color: #b4a078;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+	outline: none;
+	border: none;
+}
+.m-itemList{
+    margin-right: -10px;
+}
+ol, ul{
+    list-style: none;
+}
+.m-itemList .item{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.m-product.showScene{
+    width: 245px;
+    height: 381px;
+}
+.m-product{
+    line-height: 1;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+}
+.m-product .hd{
+    position: relative;
+    margin-bottom: 8px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.m-product .img {
+    width: 245px;
+    height: 245px;
+    transition: transform 1s;
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+    display: block;
+    margin: 0 auto;
+}
+.img-lazyloaded {
+    background: #f4f4f4;
+}
+.m-product.showScene .imgScene{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    opacity: 0!important;
+    width: 245px;
+    height: 245px;
+}
+.m-product .hd .colorNum {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    font-size: 12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    padding: 0 4px;
+    line-height: 18px;
+    background-color: #f4f0ea;
+}
+.m-product .prdtTags{
+    height: 20px;
+    font-size: 0;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto 3px;
+    overflow: hidden;
+}
+.m-product .prdtTags .itemTag:first-child{
+    margin-left: 0;
+}
+.m-product .prdtTags .new.itemTag, .new.u-promTag-solid{
+    background-color: #b4a078;
+}
+.m-product .prdtTags .itemTag, .u-promTag-solid{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.m-product .prdtTags .itemTag{
+    margin-left: 6px;
+}
+.m-product h4.name{
+    padding: 0 10px;
+}
+.m-product .name{
+    margin-bottom: 4px;
+    height: 20px;
+    line-height: 20px;
+}
+a{
+    color: #333;
+}
+.m-product .price{
+    color: #d4282d;
+    text-align: center;
+}
+.m-product .price span{
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 22px;
+}
+.m-product .price span{
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 22px;
+}
+.m-product hr{
+    display: block;
+    width: 130px;
+    height: 1px;
+    padding: 0;
+    margin: 6px auto 14px;
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+}
+.m-product .desc{
+    width: 100%;
+    padding: 0 10px;
+}
+.m-product.showScene:hover{
+    box-shadow: 1px 1px 8px rgba(0,0,0,.2);
+    background-color: #f4f0ea;
+}
+.m-product.showScene:hover .imgScene{
+    opacity: 1!important;
+}
+.m-hotRec>.title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.m-product:hover .hd .img{
+    transform: scale(1.05);
+}
+/* 侧边开始 */
+.cebian{
+	position: fixed;
+	top: 20%;
+	right: 0;
+	display: block;
+	z-index: 100;
+}
+.cebian .cebian1{
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	padding: 8px 0;
+}
+.cebian a{
+	text-align: center;
+	background-color: #fff;
+	display: block;
+}
+.cebian .icon{
+	display: block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+	background-image: url(../img/yanxuan6.png);
+	background-position: 0 -297px;
+    height: 29px;
+    width: 28px;
+	margin: 8px auto 0;
+}
+.cebian>.cebian1>p{
+	line-height: 20px;
+    font-size: 14px;
+    margin: 8px auto ;
+    position: relative;
+}
+.cebian .p1{
+	color:#BC3B3B;
+}
+.cebian3{
+    width: 72px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+}
+.cebian3:after{
+	content: '';
+    position: absolute;
+    display: block;
+    left: 6px;
+    bottom: -10px;
+    width: 60px;
+    border-bottom: 1px solid #eaeaea;
+}
+.cebian3:before{
+	content: '';
+    position: absolute;
+    display: block;
+    left: 6px;
+    width: 60px;
+    border-bottom: 1px solid #eaeaea;
+}
+.cebian3 .icon1{
+	background-position: 0 -425px;
+    height: 26px;
+    width: 26px;
+}
+.cebian3 p{
+	line-height: 20px;
+    font-size: 14px;
+    margin: 8px auto 0;
+    position: relative;
+}
+.cebian4{
+	text-align: center;
+	padding-top: 14px;
+	background: #fff;
+}
+.cebian4 .icon2{
+	background-position: 0 -87px;
+    height: 31px;
+    width: 32px;
+}
+.goTop{
+	bottom: 0;
+    position: relative;
+	text-align: center;
+	padding-top: 14px;
+	background: #fff;
+	border-top:1px solid #eaeaea;
+}
+.goTop .icon3{
+	background-position: 0 -233px;
+    height: 15px;
+    width: 24px;
+}
+.cebian,.goTop{
+	cursor: pointer;
+}
+.cebian p{
+	line-height: 20px;
+    font-size: 14px;
+    margin: 8px auto 0;
+    position: relative;
+	padding-bottom: 8px;
+}
+.a1 p{
+	margin: 0;
+	padding: 0;
+}
+.daohang-top{
+	width:1903px;
+	height:50px;
+	position:fixed;
+	top:-60px;
+	background:#fff;
+	border-top:1px solid #e3e3e3;
+	box-shadow: 0 0 5px rgba(0,0,0,.4);
+	z-index: 100;
+}
+.active1{
+	top: 0;
+	transition: top 1s;
+}
+.daohang-top-inner{
+	position:relative;
+	width:1190px;
+	height:100%;
+	margin:0 auto;
+}
+.daohang-top-logo{
+	width:90px;
+	height:30px;
+	float:left;
+	position: absolute;
+	left:5px;
+	top:12px;
+	background:url(../img/yanxuan.png)0 -98px no-repeat;
+}
+.daohang-top-right{
+	display:block;
+	position:absolute;
+	width:22px;
+	height:20px;
+	margin-left:20px;
+	right:0;
+	background:url(../img/yanxuan.png)0 -192px no-repeat;
+}
+.right-left{
+	right: 90px;
+    top: 15px;
+}
+.right-middle{
+	right: 45px;
+	top:15px;
+	background-position:0 -254px;
+}
+.right-right{
+	width:24px;
+	height:24px;
+	right: 0px;
+	top:15px;
+	background-position:0 0;
+}
+.daohang-top .tab-nav{
+	top: -34px;
+    left: 142px;
+}
+.daohang-top .nav-dropdown{
+    left: -113px;
+    top: 6px;
+}
+.daohang-top .nav-item{
+	height:37px;
+}
+.daohang-top .nav-item .topLevel{
+	height: 31px;
+}
+.dl-box{
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-192px;
+	width:384px;
+	margin-top:-278px;
+	display:block;
+	background:#fff;
+	z-index:10;
+}
+.icon4{
+	display: block;
+	height: 19px;
+    width: 19px;
+	position: absolute;
+    top: -6px;
+    right: -6px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1000;
+	background-image: url(../img/yanxuan7.png);
+	background-position: 0 -51px;
+}
+.daohang-top-inner .daohang-top-right{
+	cursor: pointer;
+} 
